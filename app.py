@@ -67,6 +67,6 @@ def index():
 def serve_static(filename):
     return send_file(f'static/{filename}', mimetype='video/mp4')
 
-if __name__ == '__main__':  # Fix here: __name__ and __main__
-    webbrowser.open("http://127.0.0.1:5000/")
-    app.run(debug=True, use_reloader=False)
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 10000))  # Use Render's port or default
+    app.run(host='0.0.0.0', port=port)
