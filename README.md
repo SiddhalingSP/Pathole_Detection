@@ -2,5 +2,5 @@
 
 Folder Structure has to be like this ☝🏻 
 we have to create two empty folders to store input video and output video
-folder 1 --> uploads
-folder 2 --> static
+||folder 1 --> uploads||
+||folder 2 --> static||
