@@ -3,4 +3,4 @@
 Folder Structure has to be like this ☝🏻 
 we have to create two empty folders to store input video and output video
 folder 1 --> uploads
-folder 1 --> static
+folder 2 --> static
